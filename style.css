@@ -1,13 +1,26 @@
 /*
-Theme Name: Custom Theme: EngSoc
-Theme URI: http://engsoc.skule.ca/
-Description: Theme for engsoc.skule.ca
-Version: 0.01
-Author: Rafal Dittwald, Valentin Peretroukhin, Ritchie Thai
-Author URI: http://engsoc.skule.ca/
+Theme Name: SkuleTheme
+Theme URI: http://skule.ca/
+Description: Suggested theme for Skule groups, based on Wordpress' Twenty Ten theme.
+Version: 0.1
+Author: Skule Web Services
+Author URI: http://sws.skule.ca/
 Template: twentyten
 */
 
-/* Inherit the default theme styles 
-@import url( ../twentyten/style.css );*/
+/* Inherit the default theme styles */ 
+@import url( ../twentyten/style.css );
 
+#site-info {
+	width: 500px;
+}
+#site-generator {
+	width: 305px;
+}
+#site-generator a {
+	display: none;
+}
+#site-generator a.credit {
+	display: inline-block;
+	background: none;
+}
